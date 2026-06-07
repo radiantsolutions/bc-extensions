@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BulbsDepot Sandbox3",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "server": "https://businesscentral.dynamics.com",
+            "serverInstance": "",
+            "authentication": "AAD",
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "073f304c-bf30-413f-8dab-03a2f0887664"
+        }
+    ]
+}

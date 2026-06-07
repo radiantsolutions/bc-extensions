@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "Bulk Payment Apply",
+            "path": "BulkPaymentApply"
+        },
+        {
+            "name": "BD Integration API",
+            "path": "BD-Integration-API"
+        }
+    ],
+    "settings": {
+        "al.enableCodeAnalysis": true
+    }
+}

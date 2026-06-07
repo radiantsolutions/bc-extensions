@@ -1,0 +1,39 @@
+# ============================================================
+#  Business Central / AL
+# ============================================================
+
+# Downloaded symbol packages — large, and regenerable any time
+# via "AL: Download Symbols". Never commit these.
+.alpackages/
+
+# Compiled extension packages (build output)
+*.app
+
+# Debugger snapshots
+.snapshots/
+
+# AL Test Runner output
+.altestrunner/
+
+# Rapid Application Development (publish) state
+rad.json
+
+# Auto-generated base translation file. Uncomment ONLY if you
+# generate it on build rather than hand-maintaining translations.
+# *.g.xlf
+
+# ============================================================
+#  VS Code
+# ============================================================
+# launch.json holds environment/tenant config. For SaaS sandboxes
+# it contains NO secrets (auth is interactive), so it's usually safe
+# and useful to commit for shared env config — left tracked by default.
+# Uncomment the next line if you'd rather keep it local.
+# .vscode/launch.json
+
+# ============================================================
+#  OS / editor junk
+# ============================================================
+desktop.ini
+Thumbs.db
+.DS_Store
