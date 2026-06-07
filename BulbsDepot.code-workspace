@@ -5,8 +5,8 @@
             "path": "BulkPaymentApply"
         },
         {
-            "name": "BD Integration API",
-            "path": "BD-Integration-API"
+            "name": "RSG BC API",
+            "path": "RSG-BC-API"
         }
     ],
     "settings": {
