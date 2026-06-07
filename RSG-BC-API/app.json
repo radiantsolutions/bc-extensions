@@ -1,0 +1,27 @@
+{
+  "id": "1afe3026-85e9-4eb3-80ab-b78a8433e45b",
+  "name": "RSG BC API",
+  "publisher": "Radiant Solutions Group",
+  "version": "1.0.0.0",
+  "brief": "Custom API pages exposing Business Central fields to external automation agents.",
+  "description": "Read/PATCH API surface over Business Central for the BulbsDepot Copilot and AP automation agents. Exposes sales-order shipping fields and the purchase-order Vendor Invoice No. that the standard APIs do not surface.",
+  "url": "https://github.com/radiantsolutions/bc-extensions",
+  "dependencies": [],
+  "application": "26.0.0.0",
+  "platform": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
